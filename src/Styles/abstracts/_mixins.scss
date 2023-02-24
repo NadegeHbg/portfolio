@@ -1,9 +1,26 @@
+/* 
+To use it : 
+On top of the file -> @use '../abstracts' as *;
+Where you need the mixin -> @include [nom de la mixin]
+*/
+
 @mixin flex ($direction: column, $justify: center, $align: center) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
 }
+
+// @mixin text-gradient ($direction: right, $colorOne: #3A4753, $colorTwo: #5C7792, $stopOne: 50%, $stopTwo: 50%) {
+//     background: linear-gradient(to $direction,
+//             $colorOne $stopOne,
+//             $colorTwo $stopTwo,
+//         );
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     background-clip: text;
+//     color: transparent;
+// }
 
 // @mixin min-height($height: 100%) {
 //     min-height: $height
@@ -12,9 +29,3 @@
 // @mixin min-width($width: 100%) {
 //     min-width: $width
 // }
-
-/* 
-To use it : 
-On top of the file -> @use '../abstracts' as *;
-Where you need the mixin -> @include [nom de la mixin]
-*/

@@ -1,8 +1,9 @@
+@use '../abstracts' as *;
+
 .nav {
     list-style: none;
-    width: 100%;
-    display: flex;
-    align-content: center;
+    height: 100%;
+    @include flex(row, flex-end);
 
     .link {
         margin-right: 50px;

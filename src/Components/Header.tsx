@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <div className="nav flex justify-end">
+        <div className="nav">
             <Link to="/" className="link" >Welcome !</Link>
             <Link to="/portfolio" className="link" >Portfolio</Link>
             <Link to="/resume" className="link" >Resume</Link>

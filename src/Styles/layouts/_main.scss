@@ -4,15 +4,18 @@
     @include flex(column, center, center);
     min-height: 100%;
 
-
     .soon {
         text-align: center;
         padding: 50px;
-        border: 3px salmon solid;
+        border: 3px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(100deg, #3A4753, #5C7792);
+
 
         translate: 0 -150%;
 
         min-height: 100%;
+        // check sizes
         width: clamp(240px, 30%, 45%);
     }
 
@@ -20,6 +23,14 @@
         min-width: 50%;
         translate: 0 -100%;
         text-align: center;
-        // background-color: red;
+
+    }
+
+    h1 {
+        background: linear-gradient(to left, #3A4753, #5C7792);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
     }
 }
