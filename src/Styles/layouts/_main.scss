@@ -1,0 +1,25 @@
+@use '../abstracts' as *;
+
+.home {
+    @include flex(column, center, center);
+    min-height: 100%;
+
+
+    .soon {
+        text-align: center;
+        padding: 50px;
+        border: 3px salmon solid;
+
+        translate: 0 -150%;
+
+        min-height: 100%;
+        width: clamp(240px, 30%, 45%);
+    }
+
+    .present {
+        min-width: 50%;
+        translate: 0 -100%;
+        text-align: center;
+        // background-color: red;
+    }
+}
