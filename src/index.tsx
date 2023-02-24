@@ -10,6 +10,5 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <h1>Hello World</h1>
   </React.StrictMode>
 );
