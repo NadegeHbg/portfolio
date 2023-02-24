@@ -2,13 +2,13 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <div className="">
+        <div className="nav flex justify-end">
             <Link to="/" className="link" >Welcome !</Link>
-            <Link to="/portfolio" >Portfolio</Link>
-            <Link to="/resume" >Resume</Link>
-            <Link to="/contact" >Contact</Link>
+            <Link to="/portfolio" className="link" >Portfolio</Link>
+            <Link to="/resume" className="link" >Resume</Link>
+            <Link to="/contact" className="link" >Contact</Link>
         </div>
     )
 }
 
-export default Header
+export default Header;

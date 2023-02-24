@@ -3,11 +3,11 @@ import Header from "../Components/Header";
 
 const RootLayout = () => {
     return (
-        <div className="root-layout">
-            <header>
+        <div className="root-layout container">
+            <header className="header">
                 <Header />
             </header>
-            <main>
+            <main className="main">
                 <Outlet />
             </main>
         </div>
