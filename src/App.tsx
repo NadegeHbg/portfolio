@@ -1,11 +1,17 @@
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
+import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={< HomePage />} />
+      <Route path="/portfolio" element={< Portfolio />} />
+      <Route path="/resume" element={< Resume />} />
+      <Route path="/contact" element={< Contact />} />
     </Route>
   )
 )
