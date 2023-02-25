@@ -23,14 +23,9 @@
         min-width: 50%;
         translate: 0 -100%;
         text-align: center;
-
     }
 
     h1 {
-        background: linear-gradient(to left, #3A4753, #5C7792);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        color: transparent;
+        @include text-gradient(left) // background: linear-gradient(to left, #3A4753, #5C7792);
     }
 }
