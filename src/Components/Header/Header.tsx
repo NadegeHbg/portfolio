@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import twitch from "../assets/logos/twitch.png"
-import linkedin from "../assets/logos/linkedin.png"
+import twitch from "../../assets/logos/twitch.png"
+import linkedin from "../../assets/logos/linkedin.png"
 
 
 const Header = () => {

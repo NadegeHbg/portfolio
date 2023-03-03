@@ -9,7 +9,7 @@
         padding: .3rem;
         min-width: 85px;
         border: 1px solid var(--clr-primary-300);
-        color: var(--clr-primary-100);
+        color: var(--clr-primary-300);
 
         font-weight: 600;
 
@@ -21,7 +21,7 @@
 
         &:hover {
             background-color: var(--clr-primary-300);
-            color: var(--clr-primary-100);
+            color: var(--clr-neutral-100);
             border: 1px solid var(--clr-neutral-100);
         }
     }

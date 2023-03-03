@@ -1,5 +1,7 @@
 // import { FC } from "react"
 
+import Name from "../Components/animations/Name"
+
 const HomePage = () => {
     return (
         <div className="home">
@@ -7,7 +9,7 @@ const HomePage = () => {
                 <h2>Coming soon</h2>
             </div>
             <div className="present">
-                <h1>Hello I'm Nadège Hombergen</h1>
+                <Name />
                 <p>I'm a Junior Frontend Developer</p>
             </div>
         </div>

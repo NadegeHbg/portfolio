@@ -23,9 +23,23 @@
         min-width: 50%;
         translate: 0 -100%;
         text-align: center;
+        gap: 2rem;
     }
 
     h1 {
         @include text-gradient(left) // background: linear-gradient(to left, #3A4753, #5C7792);
     }
+}
+
+.loader-container {
+    min-height: 100%;
+
+    @include flex();
+
+    .svgName {
+        min-width: 100%;
+        @include flex(row);
+        gap: 2rem
+    }
+
 }
