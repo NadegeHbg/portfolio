@@ -1,16 +1,18 @@
 // import { FC } from "react"
 
+import Description from "../Components/animations/Description"
 import Name from "../Components/animations/Name"
 
 const HomePage = () => {
     return (
         <div className="home">
-            <div className="soon">
+            {/* <div className="soon">
                 <h2>Coming soon</h2>
-            </div>
+            </div> */}
             <div className="present">
                 <Name />
-                <p>I'm a Junior Frontend Developer</p>
+                <p>I'm <Description /></p>
+                {/* <Description /> */}
             </div>
         </div>
     )
