@@ -9,10 +9,10 @@ const Description = () => {
                 loop: true,
                 delay: 60,
                 strings: [
-                    "a Junior Frontend Developer",
-                    "curious",
-                    "spontaneous",
-                    "always looking for new challenges"
+                    "a Junior Frontend Developer.",
+                    "curious.",
+                    "spontaneous.",
+                    "always looking for new challenges."
                 ],
                 deleteSpeed: 30,
             }}
