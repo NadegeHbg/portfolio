@@ -11,6 +11,8 @@
         font-size: xx-large;
         font-weight: 900;
         padding-top: 2rem;
+        color: hsl(209, 18%, 10%),
+        ;
 
         @include text-gradient(left) // background: linear-gradient(to left, #3A4753, #5C7792);
     }

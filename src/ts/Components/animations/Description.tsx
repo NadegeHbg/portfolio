@@ -15,6 +15,7 @@ const Description = () => {
                     "always looking for new challenges."
                 ],
                 deleteSpeed: 30,
+                // cursor: "black"
             }}
         />
     )
