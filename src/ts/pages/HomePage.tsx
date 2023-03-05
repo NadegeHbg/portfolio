@@ -9,7 +9,7 @@ const HomePage = () => {
             {/* <div className="soon">
                 <h2>Coming soon</h2>
             </div> */}
-            <div className="present">
+            <div className="name-container">
                 <Name />
                 <p>I'm <Description /></p>
                 {/* <Description /> */}

@@ -1,9 +1,27 @@
-/* 
-To use it : 
-On top of the file -> @use '../abstracts' as *;
-Where you need the mixin -> @include [nom de la mixin]
-*/
+@use 'breakpoints' as *;
 
+// media queries
+//  => min-width
+@mixin mq($key) {
+
+    $size: map-get($breakpoints, $key);
+
+    @media only screen and (min-width: $size) {
+        @content;
+    }
+}
+
+//  => max-width
+@mixin md($key) {
+
+    $size: map-get($breakpoints, $key);
+
+    @media only screen and (max-width: $size) {
+        @content;
+    }
+}
+
+// display flex
 @mixin flex ($direction: column, $justify: center, $align: center) {
     display: flex;
     flex-direction: $direction;
@@ -11,6 +29,7 @@ Where you need the mixin -> @include [nom de la mixin]
     align-items: $align;
 }
 
+// text gradient
 @mixin text-gradient ($direction: right, $colorOne: var(--clr-primary-500), $colorTwo: var(--clr-primary-100)) {
     background: linear-gradient(to $direction,
             $colorOne,
@@ -29,3 +48,9 @@ Where you need the mixin -> @include [nom de la mixin]
 // @mixin min-width($width: 100%) {
 //     min-width: $width
 // }
+
+/* 
+To use it : 
+On top of the file -> @use '../abstracts' as *;
+Where you need the mixin -> @include [nom de la mixin]
+*/

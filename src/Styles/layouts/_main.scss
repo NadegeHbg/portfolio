@@ -21,12 +21,18 @@
 .name-container {
     min-height: 100%;
 
-    @include flex();
-
     .svgName {
         min-width: 100%;
-        @include flex(row);
-        gap: 2rem
+        @include flex();
+        gap: 2rem;
+
+        @include mq(lg) {
+            @include flex(row);
+        }
+
+        @include md(sm) {
+            display: none;
+        }
     }
 
 }

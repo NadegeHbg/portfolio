@@ -31,6 +31,10 @@
     }
 
     img {
-        max-height: 35px;
+        max-height: 30px;
+
+        &:hover {
+            scale: 1.2;
+        }
     }
 }
