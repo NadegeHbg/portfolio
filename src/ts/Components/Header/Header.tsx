@@ -18,15 +18,15 @@ const Header = () => {
         //     </div>
 
         // </div>
-        <nav className={toggle ? 'nav expanded' : 'nav'}>
+        <nav className={toggle ? 'nav expanded dark' : 'nav dark'}>
             <div id="mobile" onClick={(handleToggle)}>
                 {toggle ? <i className="fa-solid fa-xmark icon"></i> : <i className="fa-solid fa-bars icon"></i>}
             </div>
             <div className="links">
-                <Link to="/" className="link" >Welcome !</Link>
-                <Link to="/portfolio" className="link" >Portfolio</Link>
-                <Link to="/resume" className="link" >Resume</Link>
-                <Link to="/contact" className="link" >Contact</Link>
+                <Link to="/" className="link text" >Welcome !</Link>
+                <Link to="/portfolio" className="link text" >Portfolio</Link>
+                <Link to="/resume" className="link text" >Resume</Link>
+                <Link to="/contact" className="link text" >Contact</Link>
                 <a href="https://www.linkedin.com/in/Nadege-Hbg" target='_blank' rel="noreferrer">
                     <img src={linkedin} alt="linkedin logo" />
                 </a>

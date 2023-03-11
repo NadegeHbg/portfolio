@@ -4,7 +4,7 @@
     list-style: none;
     width: 100%;
     height: 80px;
-    background-color: var(--clr-neutral-100);
+    // background-color: var(--clr-neutral-100);
     @include flex(row, flex-end);
 
     @include md(md) {
@@ -33,8 +33,7 @@
     .link {
         padding: .3rem;
         min-width: 85px;
-        border: 1px solid var(--clr-primary-300);
-        color: var(--clr-primary-300);
+        border: 1px solid;
 
         font-weight: 600;
 
@@ -45,7 +44,7 @@
         transition: 350ms ease-in-out;
 
         &:hover {
-            background-color: var(--clr-primary-300);
+            background-color: var(--clr-secondary-300);
             color: var(--clr-neutral-100);
             border: 1px solid var(--clr-neutral-100);
             scale: 1.1;
