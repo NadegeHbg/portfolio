@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import twitch from "../../../assets/logos/twitch.png";
-import linkedin from "../../../assets/logos/linkedin.png";
+import twitch from "../../../styles/assets/logos/twitch.png";
+import linkedin from "../../../styles/assets/logos/linkedin.png";
 
 const Header = () => {
 

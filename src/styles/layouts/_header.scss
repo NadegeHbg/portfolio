@@ -72,6 +72,8 @@
         position: absolute;
         top: 35px;
         right: 20px;
+        color: var(--clr-neutral-100);
+        font-size: 1.5rem;
 
         @include mq(md) {
             display: none;
