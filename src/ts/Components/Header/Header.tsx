@@ -24,7 +24,7 @@ const Header = () => {
             <div id="mobile" onClick={(handleToggle)}>
                 {toggle ? <i className="fa-solid fa-xmark icon"></i> : <i className="fa-solid fa-bars icon"></i>}
             </div>
-            <div className="links">
+            <div className="links text">
                 <Link to="/" className="link text" onClick={(handleToggle)}>Welcome !</Link>
                 <Link to="/portfolio" className="link text" onClick={(handleToggle)}>Portfolio</Link>
                 <Link to="/resume" className="link text" onClick={(handleToggle)}>Resume</Link>

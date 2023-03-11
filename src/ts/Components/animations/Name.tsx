@@ -49,56 +49,56 @@ const Name = () => {
                     initial="hidden"
                     animate="animate">
                     {/* color 1 */}
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M318 5h-34v41" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M284 46v42h34" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M284 46h29" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M252 46.977h19" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M214 5h-34v41" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M180 46v42h34" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M180 46h29" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M59 88 83.5 5 110 88" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M65 68.597h37" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M4 88V4" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="m4 4 43 84" />
-                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='firstColor' d="M47 87V4" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M318 5h-34v41" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M284 46v42h34" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M284 46h29" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M252 46.977h19" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M214 5h-34v41" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M180 46v42h34" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M180 46h29" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M59 88 83.5 5 110 88" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M65 68.597h37" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M4 88V4" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="m4 4 43 84" />
+                    <motion.path stroke="hsl(10, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='firstColor' d="M47 87V4" />
 
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M318 5h-34v41" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M284 46v42h34" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M284 46h29" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M252 46.977h19" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M214 5h-34v41" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M180 46v42h34" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M180 46h29" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M59 88 83.5 5 110 88" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M65 68.597h37" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M4 88V4" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="m4 4 43 84" />
-                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='secondColor' d="M47 87V4" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M318 5h-34v41" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M284 46v42h34" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M284 46h29" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M252 46.977h19" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M214 5h-34v41" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M180 46v42h34" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M180 46h29" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M59 88 83.5 5 110 88" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M65 68.597h37" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M4 88V4" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="m4 4 43 84" />
+                    <motion.path stroke="hsl(355, 100%, 63%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='secondColor' d="M47 87V4" />
 
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M318 5h-34v41" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M284 46v42h34" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M284 46h29" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M252 46.977h19" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M214 5h-34v41" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M180 46v42h34" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M180 46h29" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M59 88 83.5 5 110 88" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M65 68.597h37" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M4 88V4" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="m4 4 43 84" />
-                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="5" variants={pathVariants} initial='initial' animate='thirdColor' d="M47 87V4" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M318 5h-34v41" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M284 46v42h34" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M284 46h29" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M252 46.977h19" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M271 46.946v29.522C266 83.388 259.824 88 252.765 88 238.059 88 226 69.087 226 46.023" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M226 46.023C226 23.233 238.247 5 253.182 5c7.169 0 13.74 4.558 18.818 11.395" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M214 5h-34v41" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M180 46v42h34" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M180 46h29" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M168 46.5c0 22.897-9.547 41.5-23.434 41.5H122V5" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M122 5h22.566C158.453 5 168 22.718 168 44.524" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M59 88 83.5 5 110 88" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M65 68.597h37" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M4 88V4" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="m4 4 43 84" />
+                    <motion.path stroke="hsl(10, 100%, 73%)" strokeLinecap="round" strokeWidth="3" variants={pathVariants} initial='initial' animate='thirdColor' d="M47 87V4" />
                 </motion.svg>
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="92" fill="none" viewBox="0 0 490 92">
