@@ -12,7 +12,12 @@
         transition: 0.5s all ease-in-out;
     }
 
+
     .links {
+        &:last-child {
+            margin-right: 2rem;
+        }
+
         @include flex(row);
         gap: 2rem;
 
@@ -41,17 +46,13 @@
         justify-content: center;
         align-items: center;
 
-        transition: 350ms ease-in-out;
+        transition: 300ms ease-in-out;
 
         &:hover {
             background-color: var(--clr-secondary-300);
             color: var(--clr-neutral-100);
             border: 1px solid var(--clr-neutral-100);
             scale: 1.1;
-        }
-
-        :visited {
-            color: var(--clr-primary-300);
         }
     }
 

@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .dark {
     background-color: var(--clr-primary-500);
 

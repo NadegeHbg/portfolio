@@ -14,7 +14,11 @@
         color: hsl(209, 18%, 10%),
         ;
 
-        // @include text-gradient(left) // background: linear-gradient(to left, #3A4753, #5C7792);
+        @include text-gradient(left) // background: linear-gradient(to left, #3A4753, #5C7792);
+    }
+
+    @include md(sm) {
+        @include flex(column, center, flex-start);
     }
 }
 

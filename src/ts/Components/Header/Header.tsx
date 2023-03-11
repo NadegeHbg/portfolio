@@ -20,7 +20,7 @@ const Header = () => {
         //     </div>
 
         // </div>
-        <nav className={toggle ? 'nav expanded dark' : 'nav dark'}>
+        <nav className={toggle ? 'nav expanded' : 'nav'}>
             <div id="mobile" onClick={(handleToggle)}>
                 {toggle ? <i className="fa-solid fa-xmark icon"></i> : <i className="fa-solid fa-bars icon"></i>}
             </div>
@@ -32,7 +32,7 @@ const Header = () => {
                 <a href="https://www.linkedin.com/in/Nadege-Hbg" target='_blank' rel="noreferrer">
                     <img src={linkedin} alt="linkedin logo" />
                 </a>
-                <a href="https://www.twitch.tv/igotyb" className="margin-r" target='_blank' rel="noreferrer">
+                <a href="https://www.twitch.tv/igotyb" target='_blank' rel="noreferrer">
                     <img src={twitch} alt="twitch logo" />
                 </a>
             </div>

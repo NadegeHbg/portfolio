@@ -30,7 +30,7 @@
 }
 
 // text gradient
-@mixin text-gradient ($direction: right, $colorOne: var(--clr-primary-500), $colorTwo: var(--clr-primary-100)) {
+@mixin text-gradient ($direction: right, $colorOne: var(--clr-secondary-500), $colorTwo: var(--clr-secondary-100)) {
     background: linear-gradient(to $direction,
             $colorOne,
             $colorTwo,

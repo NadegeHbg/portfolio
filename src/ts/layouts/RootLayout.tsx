@@ -3,7 +3,7 @@ import Header from "../Components/Header/Header";
 
 const RootLayout = () => {
     return (
-        <div className="root-layout container">
+        <div className="root-layout container dark">
             <header className="header">
                 <Header />
             </header>
