@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../../ThemeContext";
 
 import twitch from "../../../styles/assets/logos/twitch.png";
 import linkedin from "../../../styles/assets/logos/linkedin.png";
 
+
 const Header = () => {
+    const { themeIcon, switchTheme } = useContext(ThemeContext);
+
 
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => {
@@ -14,17 +18,14 @@ const Header = () => {
     }
 
     return (
-        // <div className="nav">
-        //     <div id="desktop">
-
-        //     </div>
-
-        // </div>
-        <nav className={toggle ? 'nav expanded' : 'nav'}>
+        <nav className={toggle ? 'nav expanded bg' : 'nav'}>
             <div id="mobile" onClick={(handleToggle)}>
-                {toggle ? <i className="fa-solid fa-xmark icon"></i> : <i className="fa-solid fa-bars icon"></i>}
+                <i className={`icon text fa-solid ${toggle ? "fa-xmark" : "fa-bars"}`}></i>
             </div>
-            <div className="links text">
+            <div className="links">
+                <i className={`text ${themeIcon}`} onClick={switchTheme}></i>
+
+
                 <Link to="/" className="link text" onClick={(handleToggle)}>Welcome !</Link>
                 <Link to="/portfolio" className="link text" onClick={(handleToggle)}>Portfolio</Link>
                 <Link to="/resume" className="link text" onClick={(handleToggle)}>Resume</Link>

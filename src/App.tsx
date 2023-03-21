@@ -5,6 +5,7 @@ import HomePage from "./ts/pages/HomePage";
 import Portfolio from "./ts/pages/Portfolio";
 import Resume from "./ts/pages/Resume";
 import Contact from "./ts/pages/Contact";
+import { ThemeProvider } from "./ts/ThemeContext";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,7 +19,11 @@ const router = createBrowserRouter(
 )
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  );
 }
 
 export default App;

@@ -1,8 +1,12 @@
 @use '../abstracts' as *;
 
 .dark {
-    background-color: var(--clr-primary-500);
+    background-color: var(--clr-primary-400);
     transition: ease-in-out 350ms;
+
+    .bg{
+        background-color: var(--clr-primary-400);
+    }
 
     .text {
         color: var(--clr-neutral-100);
@@ -13,6 +17,10 @@
 .light {
     background-color: var(--clr-neutral-100);
     transition: ease-in-out 350ms;
+
+    .bg{
+        background-color: var(--clr-neutral-100);
+    }
 
     .text {
         color: var(--clr-primary-500);

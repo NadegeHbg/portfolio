@@ -1,19 +1,11 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { Outlet } from "react-router-dom";
+import { ThemeContext } from '../ThemeContext';
 import Header from "../Components/Header/Header";
 
 const RootLayout = () => {
-    const dark = 'root-layout container dark';
-    const light = 'root-layout container light';
-    const darkIcon = 'fa-regular fa-moon';
-    const lightIcon = 'fa-regular fa-sun';
+    const { theme } = useContext(ThemeContext);
 
-    const [theme, setTheme] = useState(dark)
-    const [themeIcon, setThemeIcon] = useState(darkIcon)
-    const switchTheme = () => {
-        setTheme(theme === dark ? light : dark)
-        setThemeIcon(themeIcon === darkIcon ? lightIcon : darkIcon)
-    }
 
     return (
         <div className={theme}>
@@ -23,9 +15,6 @@ const RootLayout = () => {
             <main className="main">
                 <Outlet />
             </main>
-            <footer className="footer">
-                <i className={themeIcon} onClick={switchTheme} ></i>
-            </footer>
         </div>
     );
 };
