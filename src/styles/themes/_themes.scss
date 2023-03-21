@@ -2,6 +2,7 @@
 
 .dark {
     background-color: var(--clr-primary-500);
+    transition: ease-in-out 350ms;
 
     .text {
         color: var(--clr-neutral-100);
@@ -11,6 +12,7 @@
 
 .light {
     background-color: var(--clr-neutral-100);
+    transition: ease-in-out 350ms;
 
     .text {
         color: var(--clr-primary-500);

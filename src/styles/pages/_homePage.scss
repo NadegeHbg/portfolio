@@ -5,7 +5,7 @@
     min-height: 100%;
     text-align: center;
 
-    p {
+    .description {
         @include flex(row, flex-start, center);
         gap: .5rem;
         font-size: xx-large;

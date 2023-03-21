@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="home">
             <div className="name-container">
                 <Name />
-                <p>I'm <Description /></p>
+                <div className="description">I'm <Description /></div>
                 {/* <Description /> */}
             </div>
         </div>
