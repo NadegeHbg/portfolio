@@ -1,16 +1,16 @@
-// @use '../abstracts' as *;
+// Grid for general content pages
 
 .container {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 0.2fr 2.7fr 0.1fr;
+    grid-template-columns: 0.3fr 2.4fr 0.3fr;
+    grid-template-rows: 0.2fr 2.8fr;
     gap: 0px 0px;
     min-height: 100vh;
     grid-auto-flow: row;
     grid-template-areas:
         "header header header"
         ". main ."
-        "footer footer footer";
+        // "footer footer footer";
 }
 
 .header {

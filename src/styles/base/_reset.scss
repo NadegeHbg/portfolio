@@ -17,19 +17,26 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
+html{
+    background-color: red;
+}
+
+
 /* Set core body defaults */
 body {
-    min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 
-    color: var(--clr-primary-300);
     font-family: 'Urbanist', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
 a {
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 /* Make images easier to work with */

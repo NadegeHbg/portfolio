@@ -20,10 +20,10 @@ const Header = () => {
     return (
         <nav className={toggle ? 'nav expanded bg' : 'nav'}>
             <div id="mobile" onClick={(handleToggle)}>
-                <i className={`icon text fa-solid ${toggle ? "fa-xmark" : "fa-bars"}`}></i>
+                <i className={`menu text fa-solid ${toggle ? "fa-xmark" : "fa-bars"}`}></i>
             </div>
             <div className="links">
-                <i className={`text ${themeIcon}`} onClick={switchTheme}></i>
+                <i className={`text icon ${themeIcon}`} onClick={switchTheme}></i>
 
 
                 <Link to="/" className="link text" onClick={(handleToggle)}>Welcome !</Link>

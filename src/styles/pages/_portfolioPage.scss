@@ -1,0 +1,34 @@
+@use '../abstracts' as *;
+
+.main-skills-section{
+    // background-color: teal;
+    @include flex(row, space-between);
+    height: calc(100vh - 80px);
+
+    .side {
+        max-width: 25%;
+
+    }
+
+    .main-skills{
+        @include flex();
+        flex-grow: 1;
+    }
+}
+
+.skills-cards {
+    @include flex(row);
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100%;
+}
+
+.skill-card{
+    width: 50%;
+    // min-height: 
+    @include flex();
+
+    ul{
+        @include flex(row);
+    }
+}

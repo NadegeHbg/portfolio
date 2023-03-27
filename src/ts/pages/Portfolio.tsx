@@ -1,8 +1,11 @@
+import MainSkillsCards from "../Components/Cards/MainSkillsCards";
+import OtherSkillsCards from "../Components/Cards/OtherSkillsCards";
+
 const Portfolio = () => {
     return (
-        <div className="text">
-            <section>
-                <div>
+        <>
+            <section className="main-skills-section text">
+                <div className="side">
                     <h2>Hello, I'm</h2>
                     <h2>Nadège Hombergen</h2>
                     <p>
@@ -12,10 +15,21 @@ const Portfolio = () => {
                     </p>
                     <button>Full resume</button>
                 </div>
-                <div></div>
+                <div className="main-skills">
+                    <h2>Main languages and tools</h2>
+                    <MainSkillsCards />
+                </div>
             </section>
-            <section></section>
-        </div>
+            <section className="main-skills-section text">
+                <div className="main-skills">
+                    <h2>But I also play with ...</h2>
+                    <OtherSkillsCards />
+                </div>
+                <div className="Side">
+                    <img src="" alt="" />
+                </div>
+            </section>
+        </>
     )
 }
 
